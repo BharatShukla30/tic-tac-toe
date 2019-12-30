@@ -1,2 +1,2 @@
 # tic-tac-toe
-tic-tac-toe game with AI
+tic-tac-toe android app with AI 

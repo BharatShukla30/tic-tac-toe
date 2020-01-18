@@ -1,5 +1,6 @@
 # tic-tac-toe
 tic-tac-toe in java using the minimax algorithm.
+Instead of using the usual 'X' and 'O', I have used 1 for the user and 2 for the AI.
 
 Links to learn :
 

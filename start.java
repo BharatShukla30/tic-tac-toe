@@ -57,7 +57,7 @@ public class start {
 						{
 						
 						topScore=score;
-						System.out.println("Max:"+topScore+"index:"+i);
+						//System.out.println("Max:"+topScore+"index:"+i);
 						}
 				}
 			}
@@ -76,9 +76,8 @@ public class start {
 					lay.setLayout(i, 0);
 					if(score<topScore)
 						{
-						
 						topScore=score;
-						System.out.println("Min:"+topScore+"index:"+i);
+						//System.out.println("Min:"+topScore+"index:"+i);
 						}
 				}
 			}
@@ -105,7 +104,7 @@ public class start {
 				if(score>topScore)
 					{
 					topScore=score;
-					System.out.println("Final:"+topScore+"index:"+i);
+					//System.out.println("Final:"+topScore+"index:"+i);
 					bestMove=i;
 					}
 			}
@@ -119,7 +118,12 @@ public class start {
 			int k=1;
 			while(k<=3)
 			{
-				System.out.print(lay.getLayout(i));
+				if(lay.getLayout(i)==0)
+					System.out.print(" _ ");
+				else if(lay.getLayout(i)==1)
+					System.out.print(" X ");
+				else
+					System.out.print(" 0 ");
 				i++;
 				k++;
 			}
